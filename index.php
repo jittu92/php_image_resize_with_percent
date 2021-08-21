@@ -1,7 +1,7 @@
 <?php
-$p = 20;
-$fwl = 'thumb2.jpg';
-$nfwl = 'thumb2_'.$p.'_percent.jpg';
+$p = 20;  // put the value 1-99 
+$fwl = 'thumb2.jpg'; // image name with proper location
+$nfwl = 'thumb2_'.$p.'_percent.jpg'; // destination image name with proper location
 image_custome_resize($p, $fwl, $nfwl);
 function image_custome_resize($percent, $filename_with_location, $newfilename_with_location) {
 
